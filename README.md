@@ -58,7 +58,7 @@ GET /api/classify-number?number=abc HTTP/1.1
 As shown below, we are making a GET request with cURL with jq(for pretty printing JSON responses) but you can make use of any API testing tool available to you.
 
 #### Sample GET request(200 OK)
-![Sample GET request 200 OK](https://github.com/ChukwunonsoFrank/hngx-task-two/blob/main/assets/sample-get-request.jpg)
+![Sample GET request 200 OK](https://github.com/ChukwunonsoFrank/hng12-devops-stage-one/blob/main/assets/sample-200-request.png)
 
 #### Sample GET request(400 Bad Request)
-![Sample GET request 400 Bad Request](https://github.com/ChukwunonsoFrank/hngx-task-two/blob/main/assets/sample-get-request.jpg)
+![Sample GET request 400 Bad Request](https://github.com/ChukwunonsoFrank/hng12-devops-stage-one/blob/main/assets/sample-400-request.png)
