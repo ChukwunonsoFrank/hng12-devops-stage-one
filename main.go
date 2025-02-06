@@ -114,7 +114,7 @@ func main() {
 
 	// Start the server with CORS enabled
 	server := &http.Server{
-		Addr:         ":" + portString,
+		Addr:         "0.0.0.0:" + portString,
 		Handler:      enableCORS(mux),
 		ReadTimeout:  5 * time.Second,
 		WriteTimeout: 10 * time.Second,
